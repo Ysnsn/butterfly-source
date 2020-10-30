@@ -8,7 +8,8 @@ git push -u origin main
 ````
 
 ````
-git remote add origin https://github.com/Ysnsn/butterfly-source.git
-git branch -M main
+git status
+git add .
+git branch -M ‘text’
 git push -u origin main
 ````
