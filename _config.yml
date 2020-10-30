@@ -1,0 +1,185 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Ysnsn博客
+subtitle: 小洋博客
+description: 小洋的小窝
+keywords: Ysnsn
+author: 可爱的Wyang
+language: zh-CN
+timezone: Asia/shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://ysnsn.cn
+root: /
+permalink: :abbrlink.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+	- index.html
+	- qq/**
+	- mikutap/**
+	- djs/**
+	- zhuye/**
+	- music/**
+	- xc/**
+	- love/**
+	- dujitang/**
+	- plane/**
+	- saolei/**
+	- caidie/**
+	- lxw/**
+	- 吹泡泡/**
+	- 方块穿梭/**
+	- 鲨鱼/**
+	- 深海水母/**
+	- 液体/**
+	- fireworks/**
+	- spjx/**
+	- wysp/**
+	- sjz/**
+	- aiqiyi/**
+	- sc/**
+	- smail/**
+	- bangumis/**
+	- silk/**
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 9
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 9
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly1
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo:
+    github: https://github.com/Ysnsn/Ysnsn.github.io.git # 将username修改成你的Github用户名   ## coding: https://e.coding.net/ysnsn/blog/Ysnsn.git
+  branch: master
+
+# RSS订阅支持
+plugin:
+- hexo-generator-feed
+
+# Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
+abbrlink: 
+    alg: crc16 #算法： 
+    crc16(default) and crc32 rep: hex #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+    
+
+bangumi:
+  enable: true
+  path: bangumis/index.html
+  vmid: 483622363
+  title: '追番列表👀'
+  quote: '生命不息，追番不止！🛴'
+  show: 1
+  loading:
+  metaColor:
+  color: "#ffc0cb"
+  webp:
+  progress: true
+  
+
+live2d:
+  enable: true # 开启live2d
+  # enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2d/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  display:
+     position: left
+  mobile:
+     show: false   
+  model:
+     scale: 1.2
+     use: weier
