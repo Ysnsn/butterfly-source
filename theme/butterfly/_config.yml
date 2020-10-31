@@ -169,7 +169,7 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
@@ -556,7 +556,7 @@ activate_power_mode:
   enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
-  mobile: false
+  mobile: true
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
@@ -800,10 +800,10 @@ aplayerInject:
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
 # position 彈窗位置
-# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
+# 可選 top-left / top-center / top-right / bottom-left /  / bottom-right
 snackbar:
   enable: true
-  position: bottom-left
+  position: bottom-center
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
@@ -823,7 +823,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
-  enable: false
+  enable: true
   post: /img/loading.gif
 
 # PWA
@@ -856,8 +856,8 @@ inject:
 
   bottom:
       - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159585720839" m="1"></script>
-      - <link rel="stylesheet" href="/css/ysnsn.css">
-      - <script src="/js/ysnsn.js"></script>
+      - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ysnsn/Ysnsn.github.io@latest/css/ysnsn.css">
+      - <script src="https://cdn.jsdelivr.net/gh/Ysnsn/Ysnsn.github.io@latest/js/ysnsn.js"></script>
       - <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/mouse_snow.min.js"></script>
 
 
