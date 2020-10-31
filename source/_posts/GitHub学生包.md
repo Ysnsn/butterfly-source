@@ -12,9 +12,9 @@ description: GitHub学生包有很多的优惠（白嫖）懂得都懂🙄
 abbrlink: GitHub-Education
 ---
 
-### 记一次申请Github学生开发包以及获得Jetbrains教育许可的经历
+## 记一次申请Github学生开发包以及获得Jetbrains教育许可的经历
 
-## Github 学生开发包简介
+### Github 学生开发包简介
 > Github 作为全球最大的开源代码托管平台，在其 Github Education 官网有关于 Github 学生开发包的说明：
 
 > Learn to ship software like a pro. There’s no substitute for hands-on experience. But for most students, real world tools can be cost-prohibitive. That’s why we created the GitHub Student Developer Pack with some of our partners and friends: to give students free access to the best developer tools in one place so they can learn by doing.
@@ -51,7 +51,7 @@ abbrlink: GitHub-Education
 > 在申请个人折扣之前，请检查您的学习社区是否已作为 GitHub Education 学校与我们合作。 更多信息请参阅 “关于 GitHub Education”。
 > 在国内，有些院校不给学生提供教育邮箱或者院校没有作为 GitHub Education 学校与 Github 合作，这时候我们只能通过其他方式证明我们身份并设法通过学生开发包的申请。
 ## 申请要求
-# 要获得申请 GitHub Student Developer Pack 的资格，必须：
+#### 要获得申请 GitHub Student Developer Pack 的资格，必须：
 - 现正攻读学位或文凭授予课程，如高中、初中、大专、大学、自主学习或类似教育机构
 - 具有学校发放的可验证电子邮件地址，或者上传能证明您目前学生身份的文档
 - 拥有 GitHub 用户帐户
@@ -61,9 +61,9 @@ abbrlink: GitHub-Education
 > 在作为学生期间，Github 可能会提示您定期重新验证目前的学业身份。
 
 ## 如何申请
-# 学校有教育邮箱
+#### 学校有教育邮箱
 Github 是接受国内高等院校申请的，如果您所在的大学很良心的提供血汗俄国教育邮箱（国内是 edu.cn），你仅需要把这教育邮箱绑定你的 Github 账号或者使用这个邮箱注册 Github，然后在申请页面选择该邮箱即可。
-# 没有教育邮箱？
+#### 没有教育邮箱？
 如果你像我一样的倒霉蛋，在一所不提供教育邮箱的 * 大学，那你需要尝试使用证明你学生身份的文件申请，这种方法需要人工审核，需要的时间可能长一点，还有概率申请被拒绝，请做好心里准备…… 随让咱们学校垃圾呢😀
 
 开始前，准备…
