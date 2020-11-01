@@ -17,6 +17,8 @@ menu:
     - 网盘OM || https://ysnsn.herokuapp.com/ || fas fa-cloud-download-alt
     - 立即前往 || http://tc.ysnsn.cn/ || fas fa-paper-plane
     - Donate || http://zz.ysnsn.cn/ || fas fa-feather
+    - sitemap || /sitemap.xml || fas fa-map-marked-alt
+    - baidusitemap || /baidusitemap.xml || fas fa-map-marker-alt
   小应用|| fas fa-gavel:
     - 丝画silk || /silk/ || fas fa-signature
     - 彩蝶 || /caidie/ || fas fa-bug
@@ -856,8 +858,8 @@ inject:
 
   bottom:
       - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159585720839" m="1"></script>
-      - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ysnsn/Ysnsn.github.io@latest/css/ysnsn.css">
-      - <script src="https://cdn.jsdelivr.net/gh/Ysnsn/Ysnsn.github.io@latest/js/ysnsn.js"></script>
+      - <link rel="stylesheet" href="/css/ysnsn.css">
+      - <script src="/js/ysnsn.js"></script>
       - <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/mouse_snow.min.js"></script>
 
 
