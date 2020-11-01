@@ -203,6 +203,16 @@ bangumi:
   color: "#ffc0cb"
   webp:
   progress: true
+  
+# 谷歌、百度站点地图生成
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
 ```
 
 ### 美化代码js css分享
@@ -232,4 +242,11 @@ bangumi:
    ```
 
 5. 看板娘插件[传送门👉](https://github.com/fghrsh/live2d_demo)
+
+6. 生成自己的sitemap文件
+ ````
+ npm install hexo-generator-sitemap --save
+ npm install hexo-generator-baidu-sitemap --save
+ ````
+
 
