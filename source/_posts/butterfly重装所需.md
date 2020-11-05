@@ -13,6 +13,8 @@ date: 2020-08-19 16:45:03
 ### 主要步骤
 
 >配置 Git 本地代理
+<details>
+<summary>点击展开👉 Git本地代理</summary>
 
 Git 同时支持 Socket5 和 HTTP 代理，根据本地客户端具体情况选择一种配置就可以了
 
@@ -48,6 +50,7 @@ $ git config --global http.proxy http://127.0.0.1:7890
 $ git config --global https.proxy https://127.0.0.1:7890
 
 ````
+</details>
 
 
 1. ✅Git 和 Node.js 的正确安装后你就可以在本地安装 Hexo 了，😉以下命令均在 Git Bash 里面进行。
