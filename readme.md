@@ -55,9 +55,9 @@ git push origin main   #把本地仓库中的文件同步到远程仓库中，�
 
 
 ### 特殊超链收集
-![](https://github-readme-stats.cyfan.top/api/top-langs/?username=Ysnsn)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ysnsn)
 
-![](https://github-readme-stats.cyfan.top/api/?username=Ysnsn&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![](https://github-readme-stats.vercel.app/api/?username=Ysnsn&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 [![](https://github-readme-stats.cyfan.top/api/pin/?username=Ysnsn&repo=butterfly-source)](https://github.com/Ysnsn/butterfly-source)
 
@@ -68,9 +68,9 @@ git push origin main   #把本地仓库中的文件同步到远程仓库中，�
 ![](https://count.getloli.com/get/@Ysnsn@butterfly-source?theme=gelbooru)
 
 ````
-![](https://github-readme-stats.cyfan.top/api/top-langs/?username=Ysnsn)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ysnsn)
 
-![](https://github-readme-stats.cyfan.top/api/?username=Ysnsn&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![](https://github-readme-stats.vercel.app/api/?username=Ysnsn&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 [![](https://github-readme-stats.cyfan.top/api/pin/?username=Ysnsn&repo=butterfly-source)](https://github.com/Ysnsn/butterfly-source)
 
