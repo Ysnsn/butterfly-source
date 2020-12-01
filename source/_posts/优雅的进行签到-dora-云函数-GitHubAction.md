@@ -8,7 +8,7 @@ tags:
     - 云函数
     - dora
 categories: 食用教程
-cover: https://cdn.jsdelivr.net/gh/Ysnsn/img@master/2020/09/05/6e6e424698c4ba35ab2c61d0f34355cd.png
+cover: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/01/7cd36ff81f01ccef80e9e3b61bbb5f8f.png
 description: 我让信念扎入地下，我让理想升向蓝天，我——愈是深深地扎下，愈是高高地伸展，愈是同泥土为伍，愈是有云彩作伴。
 abbrlink: beautiful-checkin
 ---
