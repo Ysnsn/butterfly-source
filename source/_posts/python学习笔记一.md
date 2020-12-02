@@ -11,6 +11,26 @@ cover: https://cdn.jsdelivr.net/gh/Ysnsn/picture@master/111/20200822112556.jpg
 description: 只为记录我的学习过程中的示例及笔记，为自己日后复习使用
 abbrlink: python-study1
 ---
+## 给pip设置清华源代理或设置自己的代理
+<details>
+<summary>点击展开👉 命令</summary>
+
+- 设置方法:
+	Windows: %APPDATA%\pip\pip.ini，%APPDATA%的实际路径我电脑上是C:\Users\user_xxx\AppData\Roaming，可在cmd里执行echo %APPDATA%命令查看(没有这个文件就新建)
+	  pip.ini  配置文件内容如下：
+
+````
+[global]
+index-url = http://mirrors.aliyun.com/pypi/simple/ # 这里使用的是阿里云的镜像源
+proxy=http://xxx.xxx.xxx.xxx:8080 # 替换出自己的代理地址，格式为[user:passwd@]proxy.server:port
+
+[install]
+trusted-host=mirrors.aliyun.com # 信任阿里云的镜像源，否则会有警告
+````
+	效果图如下：
+![](https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/02/95f5bc317a9b40ec7d123576de0ee982.png)
+
+</details>
 
 > ## 🥢学习途径
 1. mooc嵩天  https://www.icourse163.org/learn/BIT-1002058035?tid=1002161029#/learn/announce
@@ -29,6 +49,7 @@ abbrlink: python-study1
 2. vscode 装了插件后好看用  https://code.visualstudio.com/
 
 3. 推荐使用[Sublime](https://www.sublimetext.com/)
+
 
 ## ✅重点记录
 1. 重复元素判定
