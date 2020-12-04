@@ -134,6 +134,7 @@ deploy:
   repo:
     github: https://github.com/Ysnsn/Ysnsn.github.io.git # 将username修改成你的Github用户名   ## coding: https://e.coding.net/ysnsn/blog/Ysnsn.git
   branch: master
+  ignore_hidden: false  # 忽略隐藏文件及文件夹(目录)
 
 # RSS订阅支持
 plugin:

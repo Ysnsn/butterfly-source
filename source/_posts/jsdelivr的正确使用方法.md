@@ -61,3 +61,18 @@ token获取路径
 ![](https://cdn.jsdelivr.net/gh/Ysnsn/picture@master/11120200821190239.png)
 ![](https://cdn.jsdelivr.net/gh/Ysnsn/picture@master/111/20200822083609.png)
 
+<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<video id="video" preload loop style="height: 100%;width: 100%;object-fit: cover;">
+</video>
+<script>
+  var video = document.getElementById('video');
+  var videoSrc = 'https://cdn.jsdelivr.net/gh/Ysnsn/video-cdn/002.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+      video.play();
+    });
+  }
+</script>
