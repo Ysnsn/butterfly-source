@@ -55,6 +55,7 @@ skip_render:
 	- aiqiyi/**
 	- sc/**
 	- smail/**
+	- time/**
 	- bangumis/**
 	- silk/**
 

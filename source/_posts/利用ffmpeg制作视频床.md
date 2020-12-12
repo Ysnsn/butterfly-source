@@ -3,14 +3,13 @@ title: 利用ffmpeg制作视频床
 toc: false
 top: false
 date: 2020-12-04 23:09:26
-tags: 
+tags:
      - jsdelivr
      - GitHub
      - m3u8
 categories: 食用教程
 cover: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/04/2f5c7f8ae45dfbeeaa19d3b092045770.png
-description: 相信很多人都用过图床，大部分都是利用 Jsdeliver 当图床，从而得到一个免费的图床，并且自带 CDN 加速
-但是有很多人想存储视频这么办呢？
+description: 相信很多人都用过图床，大部分都是利用 Jsdeliver 当图床，从而得到一个免费的图床，并且自带 CDN 加速, 但是有很多人想存储视频这么办呢？
 abbrlink: jsdelivr-m3u8
 ---
 
