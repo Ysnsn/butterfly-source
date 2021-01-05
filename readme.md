@@ -22,6 +22,15 @@
     </a>
 </p>
 
+<div align="center"> 
+<h1 align="center">BUTTERFLY🦋</h1>
+
+[![GitHub stars](https://img.shields.io/github/stars/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source)
+[![GitHub forks](https://img.shields.io/github/forks/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source/network)
+[![GitHub issues](https://img.shields.io/github/issues/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source/issues)
+![GitHub issues](https://img.shields.io/github/languages/code-size/Ysnsn/butterfly-source?style=flat-square)
+</div>
+
 ### 更新命令
 <details>
 <summary>点击展开👉 更新命令</summary>
