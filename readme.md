@@ -1,6 +1,5 @@
-
-<p align="center">
 <h1 align="center">BUTTERFLY🦋</h1>
+<p align="center">
     <a>
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/Ysnsn/butterfly-source?style=social">
     </a>
