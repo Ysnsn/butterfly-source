@@ -34,15 +34,14 @@ menu:
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: true
-
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-code_word_wrap: true
+code_word_wrap: false
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -70,11 +69,6 @@ algolia_search:
   enable: false
   hits:
     per_page: 6
-
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
-    hits_stats: '${hits} results found in ${time} ms'
 
 # Local search
 local_search:
@@ -113,20 +107,20 @@ avatar:
   effect: true
 
 # The banner image of home page
-index_img: https://p.ananas.chaoxing.com/star3/origin/93ec24af5b3542b1a8a819fed2dbce5b.jpg
+index_img: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/11/71c97bb10f39896312d7e6da7f726bd1.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://p.ananas.chaoxing.com/star3/origin/e1c5e7bdcb9250d11a09a3aa8cab1541.jpg
+default_top_img: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/11/f20d13986e205910ef552cd530413d59.png
 
 # The banner image of archive page
-archive_img: https://p.ananas.chaoxing.com/star3/origin/664ae56a3994c1c86d22d9caeb966539.jpg
+archive_img: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/11/4b88d4b6d84365512bdf5692816d5b4a.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://cdn.jsdelivr.net/gh/Ysnsn/img@latest/2020/12/11/74c031c5e0ec46940d7d0caa4c4d8c0e.png
 
 # The banner image of tag page
-# format: 
+# format:
 #  - tag name: xxxxx
 tag_per_img:
 
@@ -135,16 +129,9 @@ tag_per_img:
 category_img:
 
 # The banner image of category page
-# format: 
+# format:
 #  - category name: xxxxx
 category_per_img:
-
-# If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
-# douban:
-#   meta: false
-#   movies_img:
-#   books_img:
-#   games_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -206,7 +193,7 @@ index_post_content:
 toc:
   enable: true
   number: true
-  auto_open: true # auto open the sidebar
+  style_simple: true
 
 post_copyright:
   enable: true
@@ -245,7 +232,7 @@ anchor: false
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 50 # When will it be shown
+  limit_day: 500 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -276,7 +263,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
    - Valine
   # - Disqus
@@ -327,7 +314,7 @@ gitalk:
 valine:
   appId: pE6fuMFtYcEgYTceSY23YlFs-MdYXbMMI # leancloud application app id
   appKey: GwiyT9FTAXYmRfkn24oywXtu # leancloud application app key
-  pageSize: 10 # comment list page size
+  pageSize: 12 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder:  🤳昵称框输入QQ号自动获取QQ图像 \n🚩使用Akismet反垃圾评论 \n🌈支持md语法，请尽情表演吧 \n🛴邮件通知时间为8点到24点
@@ -343,6 +330,16 @@ valine:
     - 0fa72164d542c33924ec89694aad4616
     - ad10871ff24424bf880b4cbbde9e0c6b
   tagMeta: '憨憨老大,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
+
+
+# waline - A simple comment system with backend support fork from Valine
+# https://waline.js.org/
+waline:
+  serverURL: # Waline server address url
+  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+  emojiCDN: # emoji CDN
+  bg: /image/comment_bg.png # waline background
+  option:
 
 # utterances
 # https://utteranc.es/
@@ -362,6 +359,13 @@ facebook_comments:
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
   lang: en_US # Language en_US/zh_CN/zh_TW and so on
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+  envId:
+  region:
+  option:
 
 # Chat Services
 # --------------------------------------
@@ -409,7 +413,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 相信自己，一往无前
+  custom_text: <a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN/又拍云_logo.png"align="absmiddle" width="59px" height="30px" /></a><span>提供加速服务</span>
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: true
@@ -435,6 +439,14 @@ tencent_analytics:
 # CNZZ Analytics
 # https://www.umeng.com/
 cnzz_analytics:
+
+# Cloudflare Analytics
+# https://www.cloudflare.com/zh-tw/web-analytics/
+cloudflare_analytics:
+
+# Microsoft Clarity
+# https://clarity.microsoft.com/
+microsoft_clarity:
 
 # Advertisement
 # --------------------------------------
@@ -579,6 +591,7 @@ ClickShowText:
     # - LOVE
     # - YOU
   fontSize: 15px
+  random: false
   mobile: false
 
 # Default display mode (網站默認的顯示模式)
@@ -602,9 +615,9 @@ font:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
-# blog_title_font:
-  # font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
-  # font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif
+blog_title_font:
+  font_link:
+  font-family:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -631,7 +644,8 @@ subtitle:
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub:
+  sub: 
+    - 人生即是旅途，我们都在路上
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -641,12 +655,15 @@ preloader: false
 
 aside:
   enable: true
+  hide: false
+  button: true
   mobile: true # display on mobile
   position: right # left or right
   card_author:
     enable: true
     description: 人生即是旅途，我们都在路上
     button:
+      enable: true
       icon: fab fa-github
       text: Follow Me Me⚡
       link: https://github.com/Ysnsn
@@ -657,24 +674,29 @@ aside:
     enable: true
     limit: 5 # if set 0 will show all
     sort: date # date or updated
+    sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
     color: true
+    sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
     enable: true
     post_count: true
     last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -692,14 +714,11 @@ runtimeshow:
 # Aside widget - Newest Comments
 newest_comments:
   enable: true
+  sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   avatar: true
-  leancloud:
-    enable: true
-    appId: pE6fuMFtYcEgYTceSY23YlFs-MdYXbMMI
-    appKey: GwiyT9FTAXYmRfkn24oywXtu
-    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  # You can only choose one, or neither
+  valine: true
   github_issues:
     enable: false
     repo:
@@ -707,9 +726,14 @@ newest_comments:
     enable: false
     forum:
     api_key:
+  twikoo: false
+  waline: false
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------
+
+# Change font size
+change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
@@ -789,7 +813,7 @@ artitalk:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
     # - xxxx
     # - xxxx
@@ -802,10 +826,10 @@ aplayerInject:
 # Snackbar (Toast Notification 彈窗)
 # https://github.com/polonel/SnackBar
 # position 彈窗位置
-# 可選 top-left / top-center / top-right / bottom-left /  / bottom-right
+# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: bottom-center
+  position: top-center
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
@@ -849,21 +873,22 @@ Open_Graph_meta: true
 # Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
 fragment_cache: true
 
+# Add the vendor prefixes to ensure compatibility
+css_prefix: true
+
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-
-
+    # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+      - <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
       - <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="159585720839" m="1"></script>
       - <link rel="stylesheet" href="/css/ysnsn.css">
       - <script src="/js/ysnsn.js"></script>
       - <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/mouse_snow.min.js"></script>
-
-
-
+    # - <script src="xxxx"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -885,6 +910,8 @@ CDN:
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
