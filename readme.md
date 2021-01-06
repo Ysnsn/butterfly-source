@@ -23,9 +23,10 @@
 <div align="center"> 
 <h1 align="center">BUTTERFLY🦋</h1>
 
-[![GitHub stars](https://img.shields.io/github/stars/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source)
-[![GitHub forks](https://img.shields.io/github/forks/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source/network)
-[![GitHub issues](https://img.shields.io/github/issues/Ysnsn/butterfly-source?style=flat-square)](https://github.com/Ysnsn/butterfly-source/issues)
+![GitHub stars](https://img.shields.io/github/stars/Ysnsn/butterfly-source?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/Ysnsn/butterfly-source?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Ysnsn/butterfly-source?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/Ysnsn/butterfly-source?style=flat-square)
 ![](https://img.shields.io/github/repo-size/Ysnsn/butterfly-source?style=flat-square)
 </div>
 
