@@ -88,3 +88,7 @@ git push origin main   #把本地仓库中的文件同步到远程仓库中，�
 
 ![](https://count.getloli.com/get/@Ysnsn@butterfly-source?theme=gelbooru)
 ````
+
+### star 
+
+![](https://starchart.cc/Ysnsn/butterfly-source.svg)
