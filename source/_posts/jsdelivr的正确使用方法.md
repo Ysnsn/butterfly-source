@@ -1,6 +1,6 @@
 ---
 title: jsdelivr的正确使用方法
-toc: false
+toc: true
 top: false
 tags: jsdelivr
 categories: 食用教程
